@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51603FFC2773169C003CD93E /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51603FF82773169B003CD93E /* FLAnimatedImage.m */; };
+		51603FFD2773169C003CD93E /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51603FFA2773169C003CD93E /* FLAnimatedImageView.m */; };
 		51FA6E18261D40CF00FA454F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E17261D40CF00FA454F /* AppDelegate.m */; };
 		51FA6E1B261D40CF00FA454F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E1A261D40CF00FA454F /* SceneDelegate.m */; };
 		51FA6E1E261D40CF00FA454F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E1D261D40CF00FA454F /* ViewController.m */; };
@@ -16,6 +18,11 @@
 		51FA6E29261D40D000FA454F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E28261D40D000FA454F /* main.m */; };
 		51FA6E33261D40D100FA454F /* TestGifEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E32261D40D100FA454F /* TestGifEventTests.m */; };
 		51FA6E3E261D40D100FA454F /* TestGifEventUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA6E3D261D40D100FA454F /* TestGifEventUITests.m */; };
+		51FA6E5F261D4A6A00FA454F /* emo1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51FA6E5E261D4A6A00FA454F /* emo1.gif */; };
+		51FA6E66261D4A7700FA454F /* emo4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51FA6E63261D4A7700FA454F /* emo4.gif */; };
+		51FA6E67261D4A7700FA454F /* emo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51FA6E64261D4A7700FA454F /* emo2.gif */; };
+		51FA6E68261D4A7700FA454F /* emo3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51FA6E65261D4A7700FA454F /* emo3.gif */; };
+		51FA6E70261D85C500FA454F /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51FA6E6F261D85C500FA454F /* sample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51603FF82773169B003CD93E /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		51603FF92773169C003CD93E /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		51603FFA2773169C003CD93E /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		51603FFB2773169C003CD93E /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
 		51FA6E13261D40CF00FA454F /* TestGifEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGifEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FA6E16261D40CF00FA454F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51FA6E17261D40CF00FA454F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,11 @@
 		51FA6E39261D40D100FA454F /* TestGifEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGifEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FA6E3D261D40D100FA454F /* TestGifEventUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGifEventUITests.m; sourceTree = "<group>"; };
 		51FA6E3F261D40D100FA454F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FA6E5E261D4A6A00FA454F /* emo1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emo1.gif; sourceTree = "<group>"; };
+		51FA6E63261D4A7700FA454F /* emo4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emo4.gif; sourceTree = "<group>"; };
+		51FA6E64261D4A7700FA454F /* emo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emo2.gif; sourceTree = "<group>"; };
+		51FA6E65261D4A7700FA454F /* emo3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emo3.gif; sourceTree = "<group>"; };
+		51FA6E6F261D85C500FA454F /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,7 @@
 		51FA6E0A261D40CF00FA454F = {
 			isa = PBXGroup;
 			children = (
+				51FA6E5A261D49FF00FA454F /* GifEmoji */,
 				51FA6E15261D40CF00FA454F /* TestGifEvent */,
 				51FA6E31261D40D100FA454F /* TestGifEventTests */,
 				51FA6E3C261D40D100FA454F /* TestGifEventUITests */,
@@ -104,6 +121,10 @@
 		51FA6E15261D40CF00FA454F /* TestGifEvent */ = {
 			isa = PBXGroup;
 			children = (
+				51603FFB2773169C003CD93E /* FLAnimatedImage.h */,
+				51603FF82773169B003CD93E /* FLAnimatedImage.m */,
+				51603FF92773169C003CD93E /* FLAnimatedImageView.h */,
+				51603FFA2773169C003CD93E /* FLAnimatedImageView.m */,
 				51FA6E16261D40CF00FA454F /* AppDelegate.h */,
 				51FA6E17261D40CF00FA454F /* AppDelegate.m */,
 				51FA6E19261D40CF00FA454F /* SceneDelegate.h */,
@@ -135,6 +156,18 @@
 				51FA6E3F261D40D100FA454F /* Info.plist */,
 			);
 			path = TestGifEventUITests;
+			sourceTree = "<group>";
+		};
+		51FA6E5A261D49FF00FA454F /* GifEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				51FA6E6F261D85C500FA454F /* sample.gif */,
+				51FA6E5E261D4A6A00FA454F /* emo1.gif */,
+				51FA6E64261D4A7700FA454F /* emo2.gif */,
+				51FA6E65261D4A7700FA454F /* emo3.gif */,
+				51FA6E63261D4A7700FA454F /* emo4.gif */,
+			);
+			path = GifEmoji;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FA6E70261D85C500FA454F /* sample.gif in Resources */,
 				51FA6E26261D40D000FA454F /* LaunchScreen.storyboard in Resources */,
+				51FA6E67261D4A7700FA454F /* emo2.gif in Resources */,
+				51FA6E68261D4A7700FA454F /* emo3.gif in Resources */,
 				51FA6E23261D40D000FA454F /* Assets.xcassets in Resources */,
+				51FA6E66261D4A7700FA454F /* emo4.gif in Resources */,
+				51FA6E5F261D4A6A00FA454F /* emo1.gif in Resources */,
 				51FA6E21261D40CF00FA454F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51FA6E1E261D40CF00FA454F /* ViewController.m in Sources */,
+				51603FFC2773169C003CD93E /* FLAnimatedImage.m in Sources */,
 				51FA6E18261D40CF00FA454F /* AppDelegate.m in Sources */,
+				51603FFD2773169C003CD93E /* FLAnimatedImageView.m in Sources */,
 				51FA6E29261D40D000FA454F /* main.m in Sources */,
 				51FA6E1B261D40CF00FA454F /* SceneDelegate.m in Sources */,
 			);

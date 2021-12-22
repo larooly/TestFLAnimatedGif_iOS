@@ -6,9 +6,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FLAnimatedImage.h"
+#import "FLAnimatedImageView.h"
+@interface ViewController : UIViewController{
+    FLAnimatedImageView *AnimationView;
+    FLAnimatedImageView *AnimationView2;
+}
 
-@interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
+- (IBAction)Clickbtn1:(id)sender;
+- (IBAction)Clickbtn2:(id)sender;
+- (IBAction)Clickbtn3:(id)sender;
+- (IBAction)Clickbtn4:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *bigButton;
+- (IBAction)bigClick:(id)sender;
 
 @end
 
